@@ -1,4 +1,3 @@
-Face Recognition Attendance System
 Overview
 Welcome to the Face Recognition Attendance System, a project developed by Myself, Dinesh.S from B.TECH IT. This system is designed to automate the attendance marking process using face recognition technology. It detects faces, recognizes registered students, and marks their attendance accordingly. For unrecognized faces, it displays them as unknown.
 
@@ -11,12 +10,8 @@ Technologies Used
 Python
 OpenCV (Open Source Computer Vision Library)
 Dlib (Machine Learning Library)
-SQLite (for database management)
-Setup Instructions
-Clone the repository to your local machine.
-Install the required dependencies using pip install -r requirements.txt.
-Ensure you have a webcam connected or provide image paths for testing.
-Run the main script using python main.py.
+Firebase (For storage and real-time database)
+
 Usage
 Administrator Functions:
 Add new students to the system for recognition.
