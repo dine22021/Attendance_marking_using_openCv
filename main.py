@@ -12,8 +12,8 @@ import numpy as np
 from datetime import datetime
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://realtimefaceattendance-85815-default-rtdb.firebaseio.com/",
-    'storageBucket': "realtimefaceattendance-85815.appspot.com"
+    'databaseURL': "",
+    'storageBucket': ""
 })
 bucket = storage.bucket()
 cap = cv2.VideoCapture(0)
