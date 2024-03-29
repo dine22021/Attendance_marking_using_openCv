@@ -16,8 +16,8 @@ data = {
             "major": "B.TECH IT",
             "starting_year": 2022,
             "total_attendance": 1,
-            "grade": "G",
-            "year": 4,
+            "grade": "o",
+            "year": 2,
             "last_attendance_time": "2024-03-23 00:54:34"
         }
 }
